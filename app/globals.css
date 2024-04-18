@@ -30,4 +30,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+}
+
+@layer components {
+  .flex-center {
+    @apply flex items-center justify-center
+  }
 }

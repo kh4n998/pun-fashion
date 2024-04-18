@@ -23,7 +23,7 @@ export function PunHeader() {
         </a>
         <ul className="hidden lg:flex-center gap-8 text-xl font-medium">
           <li>
-            <Link href="/demo">Trang chủ</Link>
+            <Link href="/trang-chu">Trang chủ</Link>
           </li>
           <li>
             <Link href="/hot-sales">Hot sales</Link>

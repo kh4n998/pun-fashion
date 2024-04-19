@@ -15,9 +15,14 @@ const config: Config = {
       },
       fontFamily: {
         'mont': 'var(--font-mont)'
+      },
+      aspectRatio: {
+        '21/9': '21 / 9'
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
+
 };
 export default config;

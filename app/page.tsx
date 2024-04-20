@@ -14,7 +14,7 @@ export default function Home() {
               <p className="mb-2 font-medium lg:text-2xl">Đừng bỏ lỡ chương trình giảm giá mùa hè này</p>
               <p className="font-medium lg:text-2xl">Giảm giá lên tới 66%</p>
               </div>
-              <Button type="primary" size="large" href="/hot-sale">Mua ngay</Button>
+              <Button type="primary" size="large" href="/hot-sales">Mua ngay</Button>
             </Card>
           </div>
         </section>

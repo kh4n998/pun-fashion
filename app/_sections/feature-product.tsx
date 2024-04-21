@@ -9,6 +9,7 @@ export function FeatureProduct() {
     const products = [
         {
             id: 5,
+            slug: 'ao-thun-cotton',
             title: 'Áo thun cotton',
             price: '99000',
             number_of_sold: 3229,
@@ -17,6 +18,7 @@ export function FeatureProduct() {
         {
             id: 1312412,
             title: 'Áo hoodie nỉ',
+            slug: 'ao-hoodie-ni',
             price: '159000',
             number_of_sold: 124,
             img: hoodie_sweatshirt
@@ -24,6 +26,7 @@ export function FeatureProduct() {
         {
             id: 51333123,
             title: 'Giày da lộn',
+            slug: 'giay-da-lon',
             price: '149000',
             number_of_sold: 156233,
             img: shoes
@@ -48,7 +51,7 @@ export function FeatureProduct() {
                             <div className="mt-4 flex justify-between">
                                 <div>
                                     <h3 className="text-sm text-gray-700">
-                                        <a href={product.id.toString()}>
+                                        <a href={`/san-pham/${product.slug.toString()}`}>
                                             <span aria-hidden="true" className="absolute inset-0" />
                                             {product.title}
                                         </a>

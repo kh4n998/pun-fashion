@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { PunHeader } from "./_core/header-bar";
+import ConfigProvider from "antd/es/config-provider";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -19,8 +21,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
+      <ConfigProvider theme={{ hashed: false }}>
         <PunHeader />
-        {children}
+        <AntdRegistry>
+          <main className="container mx-auto">{children}</main>
+        </AntdRegistry>
+      </ConfigProvider>
       </body>
     </html>
   );

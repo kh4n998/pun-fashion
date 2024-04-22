@@ -9,6 +9,8 @@ import { TransformCurrency } from '@/app/_widgets/transformCurrency';
 import { NumericInput } from '@/app/_widgets/numberic-input';
 
 export default function Product({params} : { params: {slug: string}} ) {
+    // const route = useRouter();
+    console.log(params);
     const [qty, setQty] = useState("1");
     const product = {
         title: 'Hoodie nỉ',
@@ -57,11 +59,13 @@ export default function Product({params} : { params: {slug: string}} ) {
         setQty(value);
     }
     return <section className="bg-white container mx-auto max-w-screen-lg">
+        <div className="mb-8">
         <Breadcrumb items={[
             { title: <a href="/">Trang chủ</a>, },
             { title: <a href="/san-pham">Sản phẩm</a>,},
             { title: 'Áo hoodie nỉ',}
-        ]} className="mb-8"></Breadcrumb>
+        ]}></Breadcrumb>
+        </div>
         <div className="flex gap-8">
             <div className='aspect-square w-[500px]'>
                 <Image src={variant.image} width={500} height={500} alt={product.title} priority></Image>

@@ -1,6 +1,5 @@
 
 import { Repeat, ShieldCheck, Truck } from "lucide-react";
-import React from "react";
 
 export function Promotions() {
     const promotions = [

@@ -29,16 +29,16 @@ export function PunHeader() {
             <Link href="/hot-sales">Hot sales</Link>
           </li>
           <li>
-            <Link href="/ao">Áo</Link>
+            <Link href="/danh-muc-san-pham/ao">Áo</Link>
           </li>
           <li>
-            <Link href="/quan">Quần</Link>
+            <Link href="/danh-muc-san-pham/quan">Quần</Link>
           </li>
           <li>
-            <Link href="/giay-dep">Giày dép</Link>
+            <Link href="/danh-muc-san-pham/giay-dep">Giày dép</Link>
           </li>
           <li>
-            <Link href="/phu-kien">Phụ kiện</Link>
+            <Link href="/danh-muc-san-pham/phu-kien">Phụ kiện</Link>
           </li>
           <li>
             <Link href="/gio-hang">
@@ -64,16 +64,16 @@ export function PunHeader() {
             <Link className="py-3 block" href="/hot-sales">Hot sales</Link>
           </li>
           <li>
-            <Link className="py-3 block" href="/ao">Áo</Link>
+            <Link className="py-3 block" href="/danh-muc-san-pham/ao">Áo</Link>
           </li>
           <li>
-            <Link className="py-3 block" href="/quan">Quần</Link>
+            <Link className="py-3 block" href="/danh-muc-san-pham/quan">Quần</Link>
           </li>
           <li>
-            <Link className="py-3 block" href="/giay-dep">Giày dép</Link>
+            <Link className="py-3 block" href="/danh-muc-san-pham/giay-dep">Giày dép</Link>
           </li>
           <li>
-            <Link className="py-3 block" href="/phu-kien">Phụ kiện</Link>
+            <Link className="py-3 block" href="/danh-muc-san-pham/phu-kien">Phụ kiện</Link>
           </li>
         </ul>
       </Drawer>
